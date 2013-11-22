@@ -1,0 +1,1371 @@
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:40:30 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 58ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:40:30 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 5ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:40:30 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 5ms
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:40:30 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 5ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:43:08 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.4ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1
+Completed 200 OK in 73ms (Views: 59.4ms | ActiveRecord: 1.9ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:43:08 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1[0m
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:43:08 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:43:08 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1[0m
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:43:49 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.6ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1
+Completed 200 OK in 29ms (Views: 15.2ms | ActiveRecord: 1.9ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:43:49 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1[0m
+Completed 200 OK in 24ms (Views: 23.4ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:43:49 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.4ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:43:49 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1[0m
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:44:44 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.4ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1
+Completed 200 OK in 27ms (Views: 14.9ms | ActiveRecord: 1.8ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:44:44 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1[0m
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:44:44 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:44:44 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1[0m
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:45:07 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.4ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1
+Completed 200 OK in 29ms (Views: 15.3ms | ActiveRecord: 2.1ms)
+Started POST "/users" for 127.0.0.1 at 2013-11-22 09:45:07 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"username"=>"hello_world", "password"=>"[FILTERED]"}}
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+Completed 500 Internal Server Error in 74ms
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:45:07 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1[0m
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.1ms)
+Started POST "/users" for 127.0.0.1 at 2013-11-22 09:45:07 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"username"=>"hello_world", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed 500 Internal Server Error in 73ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:45:07 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:45:07 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1[0m
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.2ms)
+Started POST "/users" for 127.0.0.1 at 2013-11-22 09:45:07 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"username"=>"hello_world", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed 500 Internal Server Error in 73ms
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:45:24 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.6ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1
+Completed 200 OK in 30ms (Views: 15.9ms | ActiveRecord: 1.8ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:45:24 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1[0m
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms)
+Started POST "/users" for 127.0.0.1 at 2013-11-22 09:45:24 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"username"=>"hello_world", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (67.5ms)[0m  [1mINSERT INTO "users" ("created_at", "password_digest", "session_token", "updated_at", "username") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 22 Nov 2013 14:45:24 UTC +00:00], ["password_digest", "$2a$10$UC9UlQ9F34GcohuRmuyC9OZJpvtQehqsCGooMCVexaw9q7pN4dGh2"], ["session_token", "aN01oMpbbNOxDfB0jwfQcQ"], ["updated_at", Fri, 22 Nov 2013 14:45:24 UTC +00:00], ["username", "hello_world"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  UPDATE "users" SET "session_token" = '7L47OBG1n0idk3rxtPMKHA', "updated_at" = '2013-11-22 14:45:24.477223' WHERE "users"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/1
+Completed 302 Found in 146ms (ActiveRecord: 68.1ms)
+Started GET "/users/1" for 127.0.0.1 at 2013-11-22 09:45:24 -0500
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:45:24 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms)
+Started POST "/users" for 127.0.0.1 at 2013-11-22 09:45:24 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"username"=>"hello_world", "password"=>"[FILTERED]"}}
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("created_at", "password_digest", "session_token", "updated_at", "username") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 22 Nov 2013 14:45:24 UTC +00:00], ["password_digest", "$2a$10$QBIDScrZDRPMtlrpRPE3eeNLFY0TE7EhDepsj8eLKd4bkbcGr9R0e"], ["session_token", "6cOe7JxX7_hET0HVb9SY6Q"], ["updated_at", Fri, 22 Nov 2013 14:45:24 UTC +00:00], ["username", "hello_world"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mUPDATE "users" SET "session_token" = '4K2034gwHe37m3iTKYi-ug', "updated_at" = '2013-11-22 14:45:24.568446' WHERE "users"."id" = 1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/users/1
+Completed 302 Found in 75ms (ActiveRecord: 0.8ms)
+Started GET "/users/1" for 127.0.0.1 at 2013-11-22 09:45:24 -0500
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:45:24 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1[0m
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.1ms)
+Started POST "/users" for 127.0.0.1 at 2013-11-22 09:45:24 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"username"=>"hello_world", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("created_at", "password_digest", "session_token", "updated_at", "username") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 22 Nov 2013 14:45:24 UTC +00:00], ["password_digest", "$2a$10$X19ZCM.CMkv5EbuLcq7HmeSItpSpWzlWujbkgkIyJren5kWG455tO"], ["session_token", "CDunj6fUhb5aEoCxWMDdjQ"], ["updated_at", Fri, 22 Nov 2013 14:45:24 UTC +00:00], ["username", "hello_world"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  UPDATE "users" SET "session_token" = '2-2r3Pa8fceC-Ls-O1C4ww', "updated_at" = '2013-11-22 14:45:24.653994' WHERE "users"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/1
+Completed 302 Found in 75ms (ActiveRecord: 0.8ms)
+Started GET "/users/1" for 127.0.0.1 at 2013-11-22 09:45:24 -0500
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:46:04 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.5ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1
+Completed 200 OK in 28ms (Views: 15.1ms | ActiveRecord: 2.2ms)
+Started POST "/users" for 127.0.0.1 at 2013-11-22 09:46:04 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"username"=>"hello_world", "password"=>"[FILTERED]"}}
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (5.8ms)[0m  INSERT INTO "users" ("created_at", "password_digest", "session_token", "updated_at", "username") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 22 Nov 2013 14:46:04 UTC +00:00], ["password_digest", "$2a$10$fpXLTKqqqaFtn.ui1muVUOiGxflWwpFfOCUBMSwGeumPbBv.r6Vz6"], ["session_token", "chrOC7S_7vNB_24hQ39JZQ"], ["updated_at", Fri, 22 Nov 2013 14:46:04 UTC +00:00], ["username", "hello_world"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mUPDATE "users" SET "session_token" = 'tdwk8-Rj3JvNbFuoG8U2GA', "updated_at" = '2013-11-22 14:46:04.244095' WHERE "users"."id" = 1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/users/1
+Completed 302 Found in 83ms (ActiveRecord: 6.3ms)
+Started GET "/users/1" for 127.0.0.1 at 2013-11-22 09:46:04 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.2ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" = 'tdwk8-Rj3JvNbFuoG8U2GA' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" = 'tdwk8-Rj3JvNbFuoG8U2GA' LIMIT 1[0m
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:46:04 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms)
+Started POST "/users" for 127.0.0.1 at 2013-11-22 09:46:04 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"username"=>"hello_world", "password"=>"[FILTERED]"}}
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("created_at", "password_digest", "session_token", "updated_at", "username") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 22 Nov 2013 14:46:04 UTC +00:00], ["password_digest", "$2a$10$L7/XdN37BfGsLyc/dRV.4OPYci8GrpI5SoxRiOrRUpC5RZh0lPYra"], ["session_token", "_oyU-Gah4QL-JjEk_CFleg"], ["updated_at", Fri, 22 Nov 2013 14:46:04 UTC +00:00], ["username", "hello_world"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mUPDATE "users" SET "session_token" = 'u_kM1dB_f14pT-lZaK1GEA', "updated_at" = '2013-11-22 14:46:04.338780' WHERE "users"."id" = 1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/users/1
+Completed 302 Found in 75ms (ActiveRecord: 0.8ms)
+Started GET "/users/1" for 127.0.0.1 at 2013-11-22 09:46:04 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" = 'u_kM1dB_f14pT-lZaK1GEA' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" = 'u_kM1dB_f14pT-lZaK1GEA' LIMIT 1[0m
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:46:04 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:46:04 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1[0m
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms)
+Started POST "/users" for 127.0.0.1 at 2013-11-22 09:46:04 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"username"=>"hello_world", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("created_at", "password_digest", "session_token", "updated_at", "username") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 22 Nov 2013 14:46:04 UTC +00:00], ["password_digest", "$2a$10$KNmS8z5Uum0Yk.OnqYF1.ecJyaKH0Heou5UAVU5Ad3d0Lc7WQhCG6"], ["session_token", "eOVhJ9l6c9-4pLo-Qc0uOw"], ["updated_at", Fri, 22 Nov 2013 14:46:04 UTC +00:00], ["username", "hello_world"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  UPDATE "users" SET "session_token" = 'gNAfrtLzl6WfbuAo4_xVAQ', "updated_at" = '2013-11-22 14:46:04.434875' WHERE "users"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/1
+Completed 302 Found in 74ms (ActiveRecord: 0.8ms)
+Started GET "/users/1" for 127.0.0.1 at 2013-11-22 09:46:04 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" = 'gNAfrtLzl6WfbuAo4_xVAQ' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" = 'gNAfrtLzl6WfbuAo4_xVAQ' LIMIT 1
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:46:53 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.4ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1
+Completed 200 OK in 28ms (Views: 14.8ms | ActiveRecord: 2.1ms)
+Started POST "/users" for 127.0.0.1 at 2013-11-22 09:46:53 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"username"=>"hello_world", "password"=>"[FILTERED]"}}
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (6.0ms)[0m  INSERT INTO "users" ("created_at", "password_digest", "session_token", "updated_at", "username") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 22 Nov 2013 14:46:53 UTC +00:00], ["password_digest", "$2a$10$wQfTD9x2PJj5fRqMArlGPuwAZIXVXnOXfs7grmRvMrzhyrurAx/Uq"], ["session_token", "2FnI9sGKdcDtH9z6E1Naxg"], ["updated_at", Fri, 22 Nov 2013 14:46:53 UTC +00:00], ["username", "hello_world"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mUPDATE "users" SET "session_token" = 'BsfPNDDRDg_crQPOqx6Sfw', "updated_at" = '2013-11-22 14:46:53.153258' WHERE "users"."id" = 1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/users/1
+Completed 302 Found in 83ms (ActiveRecord: 6.4ms)
+Started GET "/users/1" for 127.0.0.1 at 2013-11-22 09:46:53 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.2ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" = 'BsfPNDDRDg_crQPOqx6Sfw' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" = 'BsfPNDDRDg_crQPOqx6Sfw' LIMIT 1[0m
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.2ms)
+Started DELETE "/session" for 127.0.0.1 at 2013-11-22 09:46:53 -0500
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:46:53 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms)
+Started POST "/users" for 127.0.0.1 at 2013-11-22 09:46:53 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"username"=>"hello_world", "password"=>"[FILTERED]"}}
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("created_at", "password_digest", "session_token", "updated_at", "username") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 22 Nov 2013 14:46:53 UTC +00:00], ["password_digest", "$2a$10$w09Dz9yBHgeIsXpgBpvOzOS0LiwWSs6jJFMTCP3XVua6C4tyC9TWi"], ["session_token", "ZaAM0dTAFO5Exlb5ZPhhAg"], ["updated_at", Fri, 22 Nov 2013 14:46:53 UTC +00:00], ["username", "hello_world"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mUPDATE "users" SET "session_token" = '8ryzIgURQT76WdiuaoHj2Q', "updated_at" = '2013-11-22 14:46:53.252764' WHERE "users"."id" = 1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/users/1
+Completed 302 Found in 75ms (ActiveRecord: 0.8ms)
+Started GET "/users/1" for 127.0.0.1 at 2013-11-22 09:46:53 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" = '8ryzIgURQT76WdiuaoHj2Q' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" = '8ryzIgURQT76WdiuaoHj2Q' LIMIT 1[0m
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.1ms)
+Started DELETE "/session" for 127.0.0.1 at 2013-11-22 09:46:53 -0500
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:46:53 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:46:53 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1[0m
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms)
+Started POST "/users" for 127.0.0.1 at 2013-11-22 09:46:53 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"username"=>"hello_world", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("created_at", "password_digest", "session_token", "updated_at", "username") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 22 Nov 2013 14:46:53 UTC +00:00], ["password_digest", "$2a$10$EjQOP6K5PQn69VTOrCovRu/vWQ9h40U/oLKJhg4W4HDo4GKOeQFya"], ["session_token", "1_3oQ2hAWy0UrwUQfBpHzQ"], ["updated_at", Fri, 22 Nov 2013 14:46:53 UTC +00:00], ["username", "hello_world"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  UPDATE "users" SET "session_token" = 'ynGJTPHpFGvgIN4kf2Y0wQ', "updated_at" = '2013-11-22 14:46:53.351797' WHERE "users"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/1
+Completed 302 Found in 75ms (ActiveRecord: 0.8ms)
+Started GET "/users/1" for 127.0.0.1 at 2013-11-22 09:46:53 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" = 'ynGJTPHpFGvgIN4kf2Y0wQ' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" = 'ynGJTPHpFGvgIN4kf2Y0wQ' LIMIT 1
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:47:22 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (3.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1
+Completed 200 OK in 29ms (Views: 15.6ms | ActiveRecord: 2.4ms)
+Started POST "/users" for 127.0.0.1 at 2013-11-22 09:47:22 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"username"=>"hello_world", "password"=>"[FILTERED]"}}
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (5.7ms)[0m  INSERT INTO "users" ("created_at", "password_digest", "session_token", "updated_at", "username") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 22 Nov 2013 14:47:22 UTC +00:00], ["password_digest", "$2a$10$C7FPR0cnuQaKdASac4Fx3uTJLCstQk3KEdY7ylinlD3FtLZSw8VXi"], ["session_token", "A3yxu4l0YA9kiA3ryfRhzg"], ["updated_at", Fri, 22 Nov 2013 14:47:22 UTC +00:00], ["username", "hello_world"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mUPDATE "users" SET "session_token" = 'gGmXW5ujWrvv43Zv56ixWQ', "updated_at" = '2013-11-22 14:47:22.576265' WHERE "users"."id" = 1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/users/1
+Completed 302 Found in 82ms (ActiveRecord: 6.1ms)
+Started GET "/users/1" for 127.0.0.1 at 2013-11-22 09:47:22 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.2ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" = 'gGmXW5ujWrvv43Zv56ixWQ' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" = 'gGmXW5ujWrvv43Zv56ixWQ' LIMIT 1[0m
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.2ms)
+Started DELETE "/session" for 127.0.0.1 at 2013-11-22 09:47:22 -0500
+Processing by SessionsController#destroy as HTML
+Completed 500 Internal Server Error in 9ms
+  [1m[35m (8.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:47:22 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.4ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:47:22 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1[0m
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.1ms)
+Started POST "/users" for 127.0.0.1 at 2013-11-22 09:47:22 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"username"=>"hello_world", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("created_at", "password_digest", "session_token", "updated_at", "username") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 22 Nov 2013 14:47:22 UTC +00:00], ["password_digest", "$2a$10$Ruy4b8vE/9EW5m3giSCps.bXc21pgdF/LgqlX/W2rVTJ3q16Aa0/q"], ["session_token", "7HnmoDkWqyy-SqfvjWTYcw"], ["updated_at", Fri, 22 Nov 2013 14:47:22 UTC +00:00], ["username", "hello_world"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  UPDATE "users" SET "session_token" = 'OZ4lOzclkNDg7Wb_owkU-A', "updated_at" = '2013-11-22 14:47:22.709924' WHERE "users"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/1
+Completed 302 Found in 77ms (ActiveRecord: 0.8ms)
+Started GET "/users/1" for 127.0.0.1 at 2013-11-22 09:47:22 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" = 'OZ4lOzclkNDg7Wb_owkU-A' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" = 'OZ4lOzclkNDg7Wb_owkU-A' LIMIT 1
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:47:22 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1[0m
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.1ms)
+Started POST "/users" for 127.0.0.1 at 2013-11-22 09:47:22 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"username"=>"hello_world", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "users" ("created_at", "password_digest", "session_token", "updated_at", "username") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 22 Nov 2013 14:47:22 UTC +00:00], ["password_digest", "$2a$10$LOYwxH/MCbBlmyUCzOT5uu1GVcMAjAUvvLLkRPEw4cvqW73mSWMZ2"], ["session_token", "kZ_sAjroI-zRLixFjHYMqQ"], ["updated_at", Fri, 22 Nov 2013 14:47:22 UTC +00:00], ["username", "hello_world"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  UPDATE "users" SET "session_token" = 'jqbtQ-zrtsgFXjQrWjL3Dw', "updated_at" = '2013-11-22 14:47:22.824264' WHERE "users"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/1
+Completed 302 Found in 76ms (ActiveRecord: 0.8ms)
+Started GET "/users/1" for 127.0.0.1 at 2013-11-22 09:47:22 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" = 'jqbtQ-zrtsgFXjQrWjL3Dw' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" = 'jqbtQ-zrtsgFXjQrWjL3Dw' LIMIT 1
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.1ms)
+Started DELETE "/session" for 127.0.0.1 at 2013-11-22 09:47:22 -0500
+Processing by SessionsController#destroy as HTML
+Completed 500 Internal Server Error in 1ms
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:47:38 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.5ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1
+Completed 200 OK in 29ms (Views: 15.1ms | ActiveRecord: 1.9ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:47:38 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1[0m
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms)
+Started POST "/users" for 127.0.0.1 at 2013-11-22 09:47:38 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"username"=>"hello_world", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (5.6ms)[0m  [1mINSERT INTO "users" ("created_at", "password_digest", "session_token", "updated_at", "username") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 22 Nov 2013 14:47:38 UTC +00:00], ["password_digest", "$2a$10$7skxWoB04Q.P0GY617yr4.fA.N5a3qDZ4sbZdV7D82WU9FDVXUXd2"], ["session_token", "pI4Lpid_tRuvFJFQRG8AfA"], ["updated_at", Fri, 22 Nov 2013 14:47:38 UTC +00:00], ["username", "hello_world"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  UPDATE "users" SET "session_token" = 'mRZvhQOCt7j7ffgTdPQy2Q', "updated_at" = '2013-11-22 14:47:38.989767' WHERE "users"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/1
+Completed 302 Found in 83ms (ActiveRecord: 6.1ms)
+Started GET "/users/1" for 127.0.0.1 at 2013-11-22 09:47:38 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" = 'mRZvhQOCt7j7ffgTdPQy2Q' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" = 'mRZvhQOCt7j7ffgTdPQy2Q' LIMIT 1
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:47:39 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1[0m
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms)
+Started POST "/users" for 127.0.0.1 at 2013-11-22 09:47:39 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"username"=>"hello_world", "password"=>"[FILTERED]"}}
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("created_at", "password_digest", "session_token", "updated_at", "username") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 22 Nov 2013 14:47:39 UTC +00:00], ["password_digest", "$2a$10$ptDChcTNlttAFOAmi8Qyme5dVYtUGW3kR9Ja4lZGitiPxejgLDSgW"], ["session_token", "bWAy-AMYGhsuIFgrRMm4hg"], ["updated_at", Fri, 22 Nov 2013 14:47:39 UTC +00:00], ["username", "hello_world"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  UPDATE "users" SET "session_token" = 'imdlf-DyFRHUCZiYjn3ugQ', "updated_at" = '2013-11-22 14:47:39.083937' WHERE "users"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/1
+Completed 302 Found in 75ms (ActiveRecord: 0.7ms)
+Started GET "/users/1" for 127.0.0.1 at 2013-11-22 09:47:39 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" = 'imdlf-DyFRHUCZiYjn3ugQ' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" = 'imdlf-DyFRHUCZiYjn3ugQ' LIMIT 1
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.1ms)
+Started DELETE "/session" for 127.0.0.1 at 2013-11-22 09:47:39 -0500
+Processing by SessionsController#destroy as HTML
+Redirected to http://www.example.com/session/new
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+Started GET "/session/new" for 127.0.0.1 at 2013-11-22 09:47:39 -0500
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:47:39 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1[0m
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.1ms)
+Started POST "/users" for 127.0.0.1 at 2013-11-22 09:47:39 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"username"=>"hello_world", "password"=>"[FILTERED]"}}
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("created_at", "password_digest", "session_token", "updated_at", "username") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 22 Nov 2013 14:47:39 UTC +00:00], ["password_digest", "$2a$10$NC.4jqWuHk7bAKz4zJaKKeYNEce206x8EoUp3OERmjpYGiy3FjEfW"], ["session_token", "NJ_g9e6PobyseGNFMG2h_Q"], ["updated_at", Fri, 22 Nov 2013 14:47:39 UTC +00:00], ["username", "hello_world"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  UPDATE "users" SET "session_token" = 'lp3v7x_UwxZwXwp0THsiWw', "updated_at" = '2013-11-22 14:47:39.180653' WHERE "users"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/1
+Completed 302 Found in 75ms (ActiveRecord: 0.7ms)
+Started GET "/users/1" for 127.0.0.1 at 2013-11-22 09:47:39 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" = 'lp3v7x_UwxZwXwp0THsiWw' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" = 'lp3v7x_UwxZwXwp0THsiWw' LIMIT 1
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.1ms)
+Started DELETE "/session" for 127.0.0.1 at 2013-11-22 09:47:39 -0500
+Processing by SessionsController#destroy as HTML
+Redirected to http://www.example.com/session/new
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+Started GET "/session/new" for 127.0.0.1 at 2013-11-22 09:47:39 -0500
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.6ms)[0m  [1mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:48:06 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.4ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1
+Completed 200 OK in 28ms (Views: 15.2ms | ActiveRecord: 1.7ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:48:06 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1[0m
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms)
+Started POST "/users" for 127.0.0.1 at 2013-11-22 09:48:06 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"username"=>"hello_world", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (5.7ms)[0m  [1mINSERT INTO "users" ("created_at", "password_digest", "session_token", "updated_at", "username") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 22 Nov 2013 14:48:06 UTC +00:00], ["password_digest", "$2a$10$XW0ScKV7IkydTcz4dbdG4OynLl4YuwjhI1f8RL78s8EKf4vMRoy0W"], ["session_token", "k7uGsevUJ1QeALSH62lX-g"], ["updated_at", Fri, 22 Nov 2013 14:48:06 UTC +00:00], ["username", "hello_world"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  UPDATE "users" SET "session_token" = '4IVWeDWYwlpeR9uecuwzWA', "updated_at" = '2013-11-22 14:48:06.997904' WHERE "users"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/1
+Completed 302 Found in 83ms (ActiveRecord: 6.1ms)
+Started GET "/users/1" for 127.0.0.1 at 2013-11-22 09:48:07 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" = '4IVWeDWYwlpeR9uecuwzWA' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" = '4IVWeDWYwlpeR9uecuwzWA' LIMIT 1
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:48:07 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1[0m
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.2ms)
+Started POST "/users" for 127.0.0.1 at 2013-11-22 09:48:07 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"username"=>"hello_world", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("created_at", "password_digest", "session_token", "updated_at", "username") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 22 Nov 2013 14:48:07 UTC +00:00], ["password_digest", "$2a$10$cgYluunBd6jENdKy8bBnD.GYDyR67mCZksC1ZCP.VUgn08bc.Znta"], ["session_token", "tIgNGCHhOOFJKmYOFf48uA"], ["updated_at", Fri, 22 Nov 2013 14:48:07 UTC +00:00], ["username", "hello_world"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  UPDATE "users" SET "session_token" = 'OzLDctsH61MQevzB1pAEoA', "updated_at" = '2013-11-22 14:48:07.093569' WHERE "users"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/1
+Completed 302 Found in 75ms (ActiveRecord: 0.8ms)
+Started GET "/users/1" for 127.0.0.1 at 2013-11-22 09:48:07 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" = 'OzLDctsH61MQevzB1pAEoA' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" = 'OzLDctsH61MQevzB1pAEoA' LIMIT 1
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.1ms)
+Started DELETE "/session" for 127.0.0.1 at 2013-11-22 09:48:07 -0500
+Processing by SessionsController#destroy as HTML
+Redirected to http://www.example.com/session/new
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+Started GET "/session/new" for 127.0.0.1 at 2013-11-22 09:48:07 -0500
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:48:07 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1[0m
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms)
+Started POST "/users" for 127.0.0.1 at 2013-11-22 09:48:07 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"username"=>"hello_world", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("created_at", "password_digest", "session_token", "updated_at", "username") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 22 Nov 2013 14:48:07 UTC +00:00], ["password_digest", "$2a$10$CtAIrTAU.X/i68LBhIgEIeOCh1wEw5Qo3SMTOakvYgLZSspyOG0Eq"], ["session_token", "AkF359hHidqWxdJ2r9RbCw"], ["updated_at", Fri, 22 Nov 2013 14:48:07 UTC +00:00], ["username", "hello_world"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  UPDATE "users" SET "session_token" = 'ZJUL_rfHZkCKMxQiJ72z_g', "updated_at" = '2013-11-22 14:48:07.193826' WHERE "users"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/1
+Completed 302 Found in 78ms (ActiveRecord: 0.8ms)
+Started GET "/users/1" for 127.0.0.1 at 2013-11-22 09:48:07 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" = 'ZJUL_rfHZkCKMxQiJ72z_g' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" = 'ZJUL_rfHZkCKMxQiJ72z_g' LIMIT 1
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.1ms)
+Started DELETE "/session" for 127.0.0.1 at 2013-11-22 09:48:07 -0500
+Processing by SessionsController#destroy as HTML
+Redirected to http://www.example.com/session/new
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+Started GET "/session/new" for 127.0.0.1 at 2013-11-22 09:48:07 -0500
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:48:28 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.5ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1
+Completed 200 OK in 29ms (Views: 15.6ms | ActiveRecord: 2.5ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:48:28 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1[0m
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms)
+Started POST "/users" for 127.0.0.1 at 2013-11-22 09:48:28 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"username"=>"hello_world", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (5.8ms)[0m  [1mINSERT INTO "users" ("created_at", "password_digest", "session_token", "updated_at", "username") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 22 Nov 2013 14:48:28 UTC +00:00], ["password_digest", "$2a$10$dxU/4daPYJCaY3nm3V/Cfe92TFF36tV8FRCOWuO949tEphV4JySq6"], ["session_token", "8bhQS9P5D26GnPt5PzRByQ"], ["updated_at", Fri, 22 Nov 2013 14:48:28 UTC +00:00], ["username", "hello_world"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  UPDATE "users" SET "session_token" = '6IzqPpZhEYp2S5IopBCnzg', "updated_at" = '2013-11-22 14:48:28.543060' WHERE "users"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/1
+Completed 302 Found in 83ms (ActiveRecord: 6.2ms)
+Started GET "/users/1" for 127.0.0.1 at 2013-11-22 09:48:28 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" = '6IzqPpZhEYp2S5IopBCnzg' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" = '6IzqPpZhEYp2S5IopBCnzg' LIMIT 1
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:48:28 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1[0m
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms)
+Started POST "/users" for 127.0.0.1 at 2013-11-22 09:48:28 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"username"=>"hello_world", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("created_at", "password_digest", "session_token", "updated_at", "username") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 22 Nov 2013 14:48:28 UTC +00:00], ["password_digest", "$2a$10$Bxdu7/eUU9F3ZVxqAbJk9.e5GLG5j3vktL3xLnV2kcnirIb.kPyO2"], ["session_token", "YggV-Ahm9mYeTVCe4knsBA"], ["updated_at", Fri, 22 Nov 2013 14:48:28 UTC +00:00], ["username", "hello_world"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  UPDATE "users" SET "session_token" = 'jA9VOTAJHOBfz_sEfYt04Q', "updated_at" = '2013-11-22 14:48:28.637433' WHERE "users"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/1
+Completed 302 Found in 74ms (ActiveRecord: 0.8ms)
+Started GET "/users/1" for 127.0.0.1 at 2013-11-22 09:48:28 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" = 'jA9VOTAJHOBfz_sEfYt04Q' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" = 'jA9VOTAJHOBfz_sEfYt04Q' LIMIT 1
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.1ms)
+Started DELETE "/session" for 127.0.0.1 at 2013-11-22 09:48:28 -0500
+Processing by SessionsController#destroy as HTML
+Redirected to http://www.example.com/session/new
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+Started GET "/session/new" for 127.0.0.1 at 2013-11-22 09:48:28 -0500
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:48:28 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1[0m
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms)
+Started POST "/users" for 127.0.0.1 at 2013-11-22 09:48:28 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"username"=>"hello_world", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("created_at", "password_digest", "session_token", "updated_at", "username") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 22 Nov 2013 14:48:28 UTC +00:00], ["password_digest", "$2a$10$v4QZihB5IwppZfrQHNyBUeeaxZqfzWBt/SrTcr.lHvByGMQW1vSp."], ["session_token", "eBxyl3ef7zI5O-tlTRbg2A"], ["updated_at", Fri, 22 Nov 2013 14:48:28 UTC +00:00], ["username", "hello_world"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  UPDATE "users" SET "session_token" = '5dg5DLeenXVJlLyFFYYK4Q', "updated_at" = '2013-11-22 14:48:28.732857' WHERE "users"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/1
+Completed 302 Found in 75ms (ActiveRecord: 0.8ms)
+Started GET "/users/1" for 127.0.0.1 at 2013-11-22 09:48:28 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" = '5dg5DLeenXVJlLyFFYYK4Q' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" = '5dg5DLeenXVJlLyFFYYK4Q' LIMIT 1
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.1ms)
+Started DELETE "/session" for 127.0.0.1 at 2013-11-22 09:48:28 -0500
+Processing by SessionsController#destroy as HTML
+Redirected to http://www.example.com/session/new
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+Started GET "/session/new" for 127.0.0.1 at 2013-11-22 09:48:28 -0500
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:49:10 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.8ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1
+Completed 200 OK in 28ms (Views: 15.2ms | ActiveRecord: 2.1ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:49:10 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1[0m
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms)
+Started POST "/users" for 127.0.0.1 at 2013-11-22 09:49:10 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"username"=>"hello_world", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (5.7ms)[0m  [1mINSERT INTO "users" ("created_at", "password_digest", "session_token", "updated_at", "username") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 22 Nov 2013 14:49:10 UTC +00:00], ["password_digest", "$2a$10$HNuazqyDBygjEqDhGWPv6.aLoiT.NURTvDRrCJmT.uiNGDiJ9H4vO"], ["session_token", "zifhg4rBCsw2_-EbbQqDww"], ["updated_at", Fri, 22 Nov 2013 14:49:10 UTC +00:00], ["username", "hello_world"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  UPDATE "users" SET "session_token" = 'TG34YvitjdSEJfTy6VuuqQ', "updated_at" = '2013-11-22 14:49:10.941488' WHERE "users"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/1
+Completed 302 Found in 83ms (ActiveRecord: 6.2ms)
+Started GET "/users/1" for 127.0.0.1 at 2013-11-22 09:49:10 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" = 'TG34YvitjdSEJfTy6VuuqQ' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" = 'TG34YvitjdSEJfTy6VuuqQ' LIMIT 1
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:49:10 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1[0m
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms)
+Started POST "/users" for 127.0.0.1 at 2013-11-22 09:49:10 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"username"=>"hello_world", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("created_at", "password_digest", "session_token", "updated_at", "username") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 22 Nov 2013 14:49:11 UTC +00:00], ["password_digest", "$2a$10$qyOXgOM1ZU.9k9PQ/yl4DeHrYF4p7pyz3MHUITwD4b0gIblUrPxoC"], ["session_token", "98YyZ1vqlJGxAxUBWJSqzQ"], ["updated_at", Fri, 22 Nov 2013 14:49:11 UTC +00:00], ["username", "hello_world"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  UPDATE "users" SET "session_token" = '0VLCHSML_Yb0a2vbpkLs7w', "updated_at" = '2013-11-22 14:49:11.035290' WHERE "users"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/1
+Completed 302 Found in 75ms (ActiveRecord: 0.8ms)
+Started GET "/users/1" for 127.0.0.1 at 2013-11-22 09:49:11 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" = '0VLCHSML_Yb0a2vbpkLs7w' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" = '0VLCHSML_Yb0a2vbpkLs7w' LIMIT 1
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.1ms)
+Started DELETE "/session" for 127.0.0.1 at 2013-11-22 09:49:11 -0500
+Processing by SessionsController#destroy as HTML
+Redirected to http://www.example.com/session/new
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+Started GET "/session/new" for 127.0.0.1 at 2013-11-22 09:49:11 -0500
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:49:11 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1[0m
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms)
+Started POST "/users" for 127.0.0.1 at 2013-11-22 09:49:11 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"username"=>"hello_world", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("created_at", "password_digest", "session_token", "updated_at", "username") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 22 Nov 2013 14:49:11 UTC +00:00], ["password_digest", "$2a$10$0USpBpWwCmpavB17Cd02xu6hE/Qz.lDmUIlZ0ci/T7FGv2Uo0kcte"], ["session_token", "EUcVXHfkuTjNBf44uVhO4A"], ["updated_at", Fri, 22 Nov 2013 14:49:11 UTC +00:00], ["username", "hello_world"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  UPDATE "users" SET "session_token" = '8blfiGyTGgAVCQwEdqT7Hw', "updated_at" = '2013-11-22 14:49:11.132288' WHERE "users"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/1
+Completed 302 Found in 75ms (ActiveRecord: 0.7ms)
+Started GET "/users/1" for 127.0.0.1 at 2013-11-22 09:49:11 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" = '8blfiGyTGgAVCQwEdqT7Hw' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" = '8blfiGyTGgAVCQwEdqT7Hw' LIMIT 1
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.1ms)
+Started DELETE "/session" for 127.0.0.1 at 2013-11-22 09:49:11 -0500
+Processing by SessionsController#destroy as HTML
+Redirected to http://www.example.com/session/new
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+Started GET "/session/new" for 127.0.0.1 at 2013-11-22 09:49:11 -0500
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:53:00 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.7ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1
+Completed 200 OK in 28ms (Views: 15.1ms | ActiveRecord: 1.8ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:53:00 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1[0m
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms)
+Started POST "/users" for 127.0.0.1 at 2013-11-22 09:53:00 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"username"=>"hello_world", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (5.7ms)[0m  [1mINSERT INTO "users" ("created_at", "password_digest", "session_token", "updated_at", "username") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 22 Nov 2013 14:53:00 UTC +00:00], ["password_digest", "$2a$10$a122VDv9fyW6/D9f6tDI/uR24I0CZT29Ww/ErEjDQ0unKrFLMSm/e"], ["session_token", "8zCnL0vYL3ra-Xd4hsUkyw"], ["updated_at", Fri, 22 Nov 2013 14:53:00 UTC +00:00], ["username", "hello_world"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  UPDATE "users" SET "session_token" = 'Ol7sjkgE16MKCLZqK59qig', "updated_at" = '2013-11-22 14:53:00.312074' WHERE "users"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/1
+Completed 302 Found in 83ms (ActiveRecord: 6.1ms)
+Started GET "/users/1" for 127.0.0.1 at 2013-11-22 09:53:00 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" = 'Ol7sjkgE16MKCLZqK59qig' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" = 'Ol7sjkgE16MKCLZqK59qig' LIMIT 1
+Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:53:00 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1[0m
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms)
+Started POST "/users" for 127.0.0.1 at 2013-11-22 09:53:00 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"username"=>"hello_world", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("created_at", "password_digest", "session_token", "updated_at", "username") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 22 Nov 2013 14:53:00 UTC +00:00], ["password_digest", "$2a$10$a8bH8CtbU/0FwYjxYV1/oOK7MUWyax5gXeCW0ojt6GeM43j7wGUUq"], ["session_token", "Bu6Lzs2IvnK4G_uWy-2iSA"], ["updated_at", Fri, 22 Nov 2013 14:53:00 UTC +00:00], ["username", "hello_world"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  UPDATE "users" SET "session_token" = 'IkAAeABBzmIlzhGSCl98Gg', "updated_at" = '2013-11-22 14:53:00.406025' WHERE "users"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/1
+Completed 302 Found in 75ms (ActiveRecord: 0.8ms)
+Started GET "/users/1" for 127.0.0.1 at 2013-11-22 09:53:00 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" = 'IkAAeABBzmIlzhGSCl98Gg' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" = 'IkAAeABBzmIlzhGSCl98Gg' LIMIT 1
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.1ms)
+Started DELETE "/session" for 127.0.0.1 at 2013-11-22 09:53:00 -0500
+Processing by SessionsController#destroy as HTML
+Redirected to http://www.example.com/session/new
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+Started GET "/session/new" for 127.0.0.1 at 2013-11-22 09:53:00 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (4.7ms)
+Completed 500 Internal Server Error in 6ms
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:53:00 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1[0m
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms)
+Started POST "/users" for 127.0.0.1 at 2013-11-22 09:53:00 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"username"=>"hello_world", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("created_at", "password_digest", "session_token", "updated_at", "username") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 22 Nov 2013 14:53:00 UTC +00:00], ["password_digest", "$2a$10$..MYtTqMjCryhmYD2BnnCu494lBKBDUy6.IYN72Hy/uboys6/0p4O"], ["session_token", "FIxLcgdt5MYm35Y8jeKONQ"], ["updated_at", Fri, 22 Nov 2013 14:53:00 UTC +00:00], ["username", "hello_world"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  UPDATE "users" SET "session_token" = 'Rgm-sqFk_TSo-YD13GhnSw', "updated_at" = '2013-11-22 14:53:00.507569' WHERE "users"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/1
+Completed 302 Found in 75ms (ActiveRecord: 0.8ms)
+Started GET "/users/1" for 127.0.0.1 at 2013-11-22 09:53:00 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" = 'Rgm-sqFk_TSo-YD13GhnSw' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" = 'Rgm-sqFk_TSo-YD13GhnSw' LIMIT 1
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.1ms)
+Started DELETE "/session" for 127.0.0.1 at 2013-11-22 09:53:00 -0500
+Processing by SessionsController#destroy as HTML
+Redirected to http://www.example.com/session/new
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+Started GET "/session/new" for 127.0.0.1 at 2013-11-22 09:53:00 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 1ms
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:54:56 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.4ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1
+Completed 200 OK in 28ms (Views: 15.1ms | ActiveRecord: 2.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:54:56 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1[0m
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms)
+Started POST "/users" for 127.0.0.1 at 2013-11-22 09:54:56 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"username"=>"hello_world", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (5.7ms)[0m  [1mINSERT INTO "users" ("created_at", "password_digest", "session_token", "updated_at", "username") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 22 Nov 2013 14:54:56 UTC +00:00], ["password_digest", "$2a$10$iEkwe3KcNqt6aOWsw50naOtqD2X6bA64/ApqcTrMtE12q6tBU1l8S"], ["session_token", "-7DlFTSShNQ5ireB16cCpQ"], ["updated_at", Fri, 22 Nov 2013 14:54:56 UTC +00:00], ["username", "hello_world"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  UPDATE "users" SET "session_token" = '0QM9qMFF9xFg7I3pCOLlMg', "updated_at" = '2013-11-22 14:54:56.378105' WHERE "users"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/1
+Completed 302 Found in 83ms (ActiveRecord: 6.1ms)
+Started GET "/users/1" for 127.0.0.1 at 2013-11-22 09:54:56 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" = '0QM9qMFF9xFg7I3pCOLlMg' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" = '0QM9qMFF9xFg7I3pCOLlMg' LIMIT 1
+Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:54:56 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1[0m
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms)
+Started POST "/users" for 127.0.0.1 at 2013-11-22 09:54:56 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"username"=>"hello_world", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("created_at", "password_digest", "session_token", "updated_at", "username") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 22 Nov 2013 14:54:56 UTC +00:00], ["password_digest", "$2a$10$Jtl2USm84Zj.JgKDmpFi0.I5c3xXfr4N5p4cmg3xomenJ8X5lnzxG"], ["session_token", "QbAelE2bljHEvQf0bX0BrQ"], ["updated_at", Fri, 22 Nov 2013 14:54:56 UTC +00:00], ["username", "hello_world"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  UPDATE "users" SET "session_token" = '0-ERnpRWdVSYd89VTkxR0A', "updated_at" = '2013-11-22 14:54:56.471660' WHERE "users"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/1
+Completed 302 Found in 75ms (ActiveRecord: 0.8ms)
+Started GET "/users/1" for 127.0.0.1 at 2013-11-22 09:54:56 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" = '0-ERnpRWdVSYd89VTkxR0A' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" = '0-ERnpRWdVSYd89VTkxR0A' LIMIT 1
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.1ms)
+Started DELETE "/session" for 127.0.0.1 at 2013-11-22 09:54:56 -0500
+Processing by SessionsController#destroy as HTML
+Redirected to http://www.example.com/session/new
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+Started GET "/session/new" for 127.0.0.1 at 2013-11-22 09:54:56 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.6ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1[0m
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.1ms)
+Started GET "/session/new" for 127.0.0.1 at 2013-11-22 09:54:56 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.2ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.1ms)
+Started POST "/session" for 127.0.0.1 at 2013-11-22 09:54:56 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"user"=>{"username"=>"hello_world", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'hello_world' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mUPDATE "users" SET "session_token" = 'JfSMZnMp5gPBdQtqO3qLVQ', "updated_at" = '2013-11-22 14:54:56.565525' WHERE "users"."id" = 1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/users/1
+Completed 302 Found in 74ms (ActiveRecord: 0.3ms)
+Started GET "/users/1" for 127.0.0.1 at 2013-11-22 09:54:56 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" = 'JfSMZnMp5gPBdQtqO3qLVQ' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" = 'JfSMZnMp5gPBdQtqO3qLVQ' LIMIT 1[0m
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.7ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:54:56 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.3ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.2ms)
+Started POST "/users" for 127.0.0.1 at 2013-11-22 09:54:56 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"username"=>"hello_world", "password"=>"[FILTERED]"}}
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("created_at", "password_digest", "session_token", "updated_at", "username") VALUES (?, ?, ?, ?, ?)  [["created_at", Fri, 22 Nov 2013 14:54:56 UTC +00:00], ["password_digest", "$2a$10$FL8UcfJoJQvkNSLld/iWce72/DEg8WNQE6U14tf6Ck/p9kAOauTXu"], ["session_token", "4BgKc8wYjofd1AUQHkK80Q"], ["updated_at", Fri, 22 Nov 2013 14:54:56 UTC +00:00], ["username", "hello_world"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mUPDATE "users" SET "session_token" = 'SJpgRoK4u2kUDwsq52_lYw', "updated_at" = '2013-11-22 14:54:56.658736' WHERE "users"."id" = 1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/users/1
+Completed 302 Found in 76ms (ActiveRecord: 0.8ms)
+Started GET "/users/1" for 127.0.0.1 at 2013-11-22 09:54:56 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" = 'SJpgRoK4u2kUDwsq52_lYw' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" = 'SJpgRoK4u2kUDwsq52_lYw' LIMIT 1[0m
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.1ms)
+Started DELETE "/session" for 127.0.0.1 at 2013-11-22 09:54:56 -0500
+Processing by SessionsController#destroy as HTML
+Redirected to http://www.example.com/session/new
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+Started GET "/session/new" for 127.0.0.1 at 2013-11-22 09:54:56 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.2ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms)
+Started GET "/session/new" for 127.0.0.1 at 2013-11-22 09:54:56 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1[0m
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.1ms)
+Started POST "/session" for 127.0.0.1 at 2013-11-22 09:54:56 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"user"=>{"username"=>"hello_world", "password"=>"[FILTERED]"}}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'hello_world' LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  UPDATE "users" SET "session_token" = 'QHkZNnIqOYvcZUgDaAdRRw', "updated_at" = '2013-11-22 14:54:56.773080' WHERE "users"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/1
+Completed 302 Found in 73ms (ActiveRecord: 0.2ms)
+Started GET "/users/1" for 127.0.0.1 at 2013-11-22 09:54:56 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" = 'QHkZNnIqOYvcZUgDaAdRRw' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" = 'QHkZNnIqOYvcZUgDaAdRRw' LIMIT 1
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.1ms)
+Started DELETE "/session" for 127.0.0.1 at 2013-11-22 09:54:56 -0500
+Processing by SessionsController#destroy as HTML
+Redirected to http://www.example.com/session/new
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+Started GET "/session/new" for 127.0.0.1 at 2013-11-22 09:54:56 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1[0m
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.7ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:55:53 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (2.4ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1
+Completed 200 OK in 29ms (Views: 14.9ms | ActiveRecord: 2.5ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:55:53 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1[0m
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.1ms)
+Started POST "/users" for 127.0.0.1 at 2013-11-22 09:55:53 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"username"=>"hello_world", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (5.8ms)[0m  [1mINSERT INTO "users" ("created_at", "password_digest", "session_token", "updated_at", "username") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 22 Nov 2013 14:55:53 UTC +00:00], ["password_digest", "$2a$10$xOpBb3.eHYBZfNs6WVZTSejxkPYJ/eKrWxtW8oqOOy4JO/KE7NQpu"], ["session_token", "1r9dphyGn4QrsWRajsyQgQ"], ["updated_at", Fri, 22 Nov 2013 14:55:53 UTC +00:00], ["username", "hello_world"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.3ms)[0m  UPDATE "users" SET "session_token" = 'pG9w1IhnWt175ehUab_ZoQ', "updated_at" = '2013-11-22 14:55:53.267897' WHERE "users"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/1
+Completed 302 Found in 83ms (ActiveRecord: 6.3ms)
+Started GET "/users/1" for 127.0.0.1 at 2013-11-22 09:55:53 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" = 'pG9w1IhnWt175ehUab_ZoQ' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" = 'pG9w1IhnWt175ehUab_ZoQ' LIMIT 1
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:55:53 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1[0m
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms)
+Started POST "/users" for 127.0.0.1 at 2013-11-22 09:55:53 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"username"=>"hello_world", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("created_at", "password_digest", "session_token", "updated_at", "username") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 22 Nov 2013 14:55:53 UTC +00:00], ["password_digest", "$2a$10$cIemLNEuccunZrZnRcsgF.yRlDeNfnQMcvQ9W5Kc9Nqkb4UUGwdvu"], ["session_token", "Y18M2noxwZmn3pMKnHTxWQ"], ["updated_at", Fri, 22 Nov 2013 14:55:53 UTC +00:00], ["username", "hello_world"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  UPDATE "users" SET "session_token" = 'Q-QR08cQhviAq43YK0MuaQ', "updated_at" = '2013-11-22 14:55:53.361497' WHERE "users"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/1
+Completed 302 Found in 75ms (ActiveRecord: 0.8ms)
+Started GET "/users/1" for 127.0.0.1 at 2013-11-22 09:55:53 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" = 'Q-QR08cQhviAq43YK0MuaQ' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" = 'Q-QR08cQhviAq43YK0MuaQ' LIMIT 1
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.1ms)
+Started DELETE "/session" for 127.0.0.1 at 2013-11-22 09:55:53 -0500
+Processing by SessionsController#destroy as HTML
+Redirected to http://www.example.com/session/new
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+Started GET "/session/new" for 127.0.0.1 at 2013-11-22 09:55:53 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.6ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1[0m
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.1ms)
+Started GET "/session/new" for 127.0.0.1 at 2013-11-22 09:55:53 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.2ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.1ms)
+Started POST "/session" for 127.0.0.1 at 2013-11-22 09:55:53 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"user"=>{"username"=>"hello_world", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'hello_world' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mUPDATE "users" SET "session_token" = 'yG1p1JrJqulCnrLg-mrs_Q', "updated_at" = '2013-11-22 14:55:53.455344' WHERE "users"."id" = 1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/users/1
+Completed 302 Found in 74ms (ActiveRecord: 0.3ms)
+Started GET "/users/1" for 127.0.0.1 at 2013-11-22 09:55:53 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" = 'yG1p1JrJqulCnrLg-mrs_Q' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" = 'yG1p1JrJqulCnrLg-mrs_Q' LIMIT 1[0m
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.6ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Started GET "/session/new" for 127.0.0.1 at 2013-11-22 09:55:53 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.2ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/users/new" for 127.0.0.1 at 2013-11-22 09:55:53 -0500
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1[0m
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.1ms)
+Started POST "/users" for 127.0.0.1 at 2013-11-22 09:55:53 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"username"=>"hello_world", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("created_at", "password_digest", "session_token", "updated_at", "username") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 22 Nov 2013 14:55:53 UTC +00:00], ["password_digest", "$2a$10$WXgP3qSiOtMfHZm2/uojruTqX8Ah03ZB0bhRTwST2n05.42zM/NZ2"], ["session_token", "EX3BYtYzfXMlH4GkVEI9QQ"], ["updated_at", Fri, 22 Nov 2013 14:55:53 UTC +00:00], ["username", "hello_world"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  UPDATE "users" SET "session_token" = 'sSsuN_zrI8YWV1sIPJwCjw', "updated_at" = '2013-11-22 14:55:53.576202' WHERE "users"."id" = 1
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/1
+Completed 302 Found in 75ms (ActiveRecord: 0.8ms)
+Started GET "/users/1" for 127.0.0.1 at 2013-11-22 09:55:53 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" = 'sSsuN_zrI8YWV1sIPJwCjw' LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" = 'sSsuN_zrI8YWV1sIPJwCjw' LIMIT 1
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.1ms)
+Started DELETE "/session" for 127.0.0.1 at 2013-11-22 09:55:53 -0500
+Processing by SessionsController#destroy as HTML
+Redirected to http://www.example.com/session/new
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+Started GET "/session/new" for 127.0.0.1 at 2013-11-22 09:55:53 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1[0m
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.1ms)
+Started GET "/session/new" for 127.0.0.1 at 2013-11-22 09:55:53 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.2ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.1ms)
+Started POST "/session" for 127.0.0.1 at 2013-11-22 09:55:53 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"user"=>{"username"=>"hello_world", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."username" = 'hello_world' LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mUPDATE "users" SET "session_token" = 'dyx9kJvod-YMkngoQqhmbw', "updated_at" = '2013-11-22 14:55:53.665543' WHERE "users"."id" = 1[0m
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/users/1
+Completed 302 Found in 73ms (ActiveRecord: 0.2ms)
+Started GET "/users/1" for 127.0.0.1 at 2013-11-22 09:55:53 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered users/show.html.erb within layouts/application (0.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" = 'dyx9kJvod-YMkngoQqhmbw' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" = 'dyx9kJvod-YMkngoQqhmbw' LIMIT 1[0m
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.1ms)
+Started DELETE "/session" for 127.0.0.1 at 2013-11-22 09:55:53 -0500
+Processing by SessionsController#destroy as HTML
+Redirected to http://www.example.com/session/new
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+Started GET "/session/new" for 127.0.0.1 at 2013-11-22 09:55:53 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.2ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" IS NULL LIMIT 1
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.6ms)[0m  [1mrollback transaction[0m
