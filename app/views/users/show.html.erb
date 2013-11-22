@@ -3,8 +3,12 @@
 <ol>
   <% @goals.each do |goal| %>
     <li>
+      <%= Cheer.goals_cheers_received(goal) %> goal cheer
       <%= goal.name if goal.completed == false %>
       <%= link_to "Edit Goal", edit_goal_url(goal) %>
+      <% if logged_in? && Cheer.any_cheers_left?(current_user) %>
+        <%= button_to "Cheer!", goal_cheers_url(goal) %>
+      <% end %>
     </li>
   <% end %>
 </ol>

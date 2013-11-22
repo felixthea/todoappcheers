@@ -17,6 +17,14 @@ class User < ActiveRecord::Base
     inverse_of: :user
   )
 
+  has_many(
+    :cheers_given,
+    class_name: "Cheer",
+    foreign_key: :user_id,
+    primary_key: :id,
+    inverse_of: :goal
+  )
+
   def password=(secret)
     @password = secret
     self.password_digest = BCrypt::Password.create(secret) unless secret.blank?

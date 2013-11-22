@@ -3,5 +3,7 @@ Todo::Application.routes.draw do
     get 'completed'
   end
   resource :session
-  resources :goals
+  resources :goals do
+    resources :cheers, only: :create
+  end
 end
