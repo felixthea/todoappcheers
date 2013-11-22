@@ -60,6 +60,7 @@ module Todo
     config.assets.version = '1.0'
 
     config.generators do |g|
+      g.fixture_replacement :factory_girl, :dir => "spec/factories"
       g.test_framework :rspec,
         :fixtures => true,
         :view_specs => false,

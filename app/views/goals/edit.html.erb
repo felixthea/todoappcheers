@@ -1,0 +1,20 @@
+Edit Goal
+<form action="<%= goal_url(@goal) %>" method="post">
+  <input type="hidden" name="_method" value="PUT">
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+  <label for="Name">Name
+    <input type="text" name="goal[name]" value="<%= @goal.name %>" id="Name">
+  </label>
+  <br>
+  <label for="goal_public">Public</label>
+  <input type="radio" name="goal[personal]" id="goal_public" value="false" <%= "checked".html_safe unless @goal.personal  %>>
+  <br>
+  <label for="goal_private">Private</label>
+  <input type="radio" name="goal[personal]" id="goal_private" value="true" <%= "checked".html_safe if @goal.personal  %>>
+  <br>
+  <input type="hidden" name="goal[completed]" value="false">
+  <label for="goal_completed">Completed</label>
+  <input type="checkbox" name="goal[completed]" id="goal_completed" value="true" <%= "checked".html_safe if @goal.completed  %>>
+  <br>
+  <input type="submit" value="Update Goal">
+</form>

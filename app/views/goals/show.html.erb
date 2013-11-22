@@ -1,0 +1,5 @@
+<%= @goal.name %>
+<%= "Completed".html_safe if @goal.completed %>
+<%= @goal.personal ? "Private".html_safe : "Public".html_safe %>
+<%= link_to "Edit Goal", edit_goal_url(@goal) %>
+<%= button_to "Delete", goal_url(@goal), method: :delete %>

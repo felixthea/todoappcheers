@@ -16,14 +16,13 @@ describe "the signup process" do
       expect(page).to have_content "hello_world"
     end
 
-
   end
 
 end
 
 describe "logging in" do
   before(:each) do
-    sign_in
+    sign_in_as_hello_world
   end
 
   it "shows username on the homepage after login" do
@@ -40,7 +39,7 @@ describe "logging out" do
   end
 
   it "doesn't show username on the homepage after logout" do
-    sign_in
+    sign_in_as_hello_world
     click_on "Sign Out"
     expect(page).not_to have_content "hello_world"
   end

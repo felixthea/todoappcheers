@@ -2,13 +2,24 @@ require 'bcrypt'
 
 class User < ActiveRecord::Base
   attr_accessible :username, :password, :session_token
+  attr_reader :password
 
   validates :username, :password_digest, :session_token, presence: true
+  validates :password, length: { minimum: 6 }, on: :create
 
   before_validation :ensure_session_token
 
+  has_many(
+    :goals,
+    class_name: "Goal",
+    foreign_key: :user_id,
+    primary_key: :id,
+    inverse_of: :user
+  )
+
   def password=(secret)
-    self.password_digest = BCrypt::Password.create(secret)
+    @password = secret
+    self.password_digest = BCrypt::Password.create(secret) unless secret.blank?
   end
 
   def has_password?(secret)

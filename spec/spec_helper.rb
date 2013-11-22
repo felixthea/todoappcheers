@@ -49,11 +49,34 @@ def sign_up_as_hello_world
   sign_up("hello_world")
 end
 
-def sign_in
+def sign_in_as_hello_world
   sign_up_as_hello_world
   click_on "Sign Out"
   visit new_session_url
   fill_in 'Username', :with => "hello_world"
   fill_in 'Password', :with => "biscuits"
   click_on "Log In"
+end
+
+def factory_sign_up
+  user = FactoryGirl.create(:complete_user)
+  factory_sign_in(user.username, user.password)
+  user
+end
+
+def factory_sign_in(username,password)
+  visit new_session_url
+  fill_in 'Username', :with => username
+  fill_in 'Password', :with => password
+  click_on "Log In"
+end
+
+
+def create_user_with_goals
+  user = FactoryGirl.create(:complete_user)
+  user.goals.create(personal: false, name: "Public incomplete goal")
+  user.goals.create(personal: false, name: "Public completed goal", completed: true)
+  user.goals.create(personal: true, name: "Private incomplete goal")
+  user.goals.create(personal: true, name: "Private completed goal", completed: true)
+  user
 end

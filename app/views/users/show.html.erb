@@ -1,0 +1,10 @@
+<%= @user.username %>'s show page.
+<br>
+<ol>
+  <% @goals.each do |goal| %>
+    <li>
+      <%= goal.name if goal.completed == false %>
+      <%= link_to "Edit Goal", edit_goal_url(goal) %>
+    </li>
+  <% end %>
+</ol>

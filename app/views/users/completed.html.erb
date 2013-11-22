@@ -1,0 +1,9 @@
+<%= @user.username %>'s completed goals show page.
+<br>
+<ol>
+  <% @goals.select {|goal| goal.completed == true}.each do |goal| %>
+    <li>
+      <%= goal.name %>
+    </li>
+  <% end %>
+</ol>
